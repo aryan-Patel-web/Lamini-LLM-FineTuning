@@ -1,5 +1,3 @@
-
-
 # Lamini-LLM-FineTuning
 
 Fine-tune Meta-Llama-3-8B-Instruct using Lamini’s managed LLM engine and custom training data.  
@@ -7,8 +5,6 @@ This repo shows:
 - How to format your dataset
 - How to call Lamini’s `.tune()` method
 - How to adjust key hyperparameters like learning rate
-
----
 
 
 Example directory structure:
@@ -61,7 +57,7 @@ llm.tune(
     }
 )
 
-✅ Hyperparameters
+Hyperparameters
 Available arguments for finetune_args:
 
 learning_rate: (float) e.g. 1e-4
